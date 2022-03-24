@@ -8,6 +8,8 @@ Shader "Ariaaaaa/SSS"
     {
         _SSSTexture ("SSSTexture", 2D) = "white" {}
         _Strength("Strength",Range(0.0,1.0))=0.1
+        _Glass("Glass",Range(0,255))=8
+        _SpecularColor("SpecularColor",Color)=(1,1,1,1)
     }
     SubShader
     {
@@ -26,7 +28,9 @@ Shader "Ariaaaaa/SSS"
 
 
             sampler2D _SSSTexture;
+            fixed4 _SpecularColor;
             fixed _Strength;
+            fixed _Glass;
 
             struct a2v
             {
@@ -54,11 +58,18 @@ Shader "Ariaaaaa/SSS"
             {
                 fixed3 worldNormal = normalize(i.worldNormal);
                 fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(i.worldPosition));
+                fixed3 worldViewDir = normalize(UnityWorldSpaceViewDir(i.worldPosition));
+                fixed3 worldHalfDIr = normalize(worldLightDir+worldViewDir);
+
+
                 fixed diff = dot(worldNormal,worldLightDir);
+                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xzy;
                 diff = diff*0.5+0.5;
                 fixed3 diffuse = _LightColor0.rgb * tex2D(_SSSTexture,fixed2(diff,_Strength));
 
-                return fixed4(diffuse,1.0);
+                fixed3 specular = _LightColor0.rgb *_SpecularColor.rgb *max(0,pow(dot(worldNormal,worldHalfDIr),_Glass));
+
+                return fixed4(specular+diffuse+ambient,1.0);
             }
             ENDCG
         }
