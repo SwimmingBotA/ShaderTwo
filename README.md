@@ -9,6 +9,6 @@
 ![图片](https://user-images.githubusercontent.com/50166070/159422407-f43d457b-81f6-4664-93cf-10feeea81481.png)
 
 
-### [SSS](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Lesson04)
+### [简易SSS](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Lesson04)
 
 
