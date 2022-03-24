@@ -67,7 +67,7 @@ Shader "Ariaaaaa/SSS"
                 diff = diff*0.5+0.5;
                 fixed3 diffuse = _LightColor0.rgb * tex2D(_SSSTexture,fixed2(diff,_Strength));
 
-                fixed3 specular = _LightColor0.rgb *_SpecularColor.rgb *max(0,pow(dot(worldNormal,worldHalfDIr),_Glass));
+                fixed3 specular = _LightColor0.rgb *_SpecularColor.rgb *pow(max(0,dot(worldNormal,worldHalfDIr)),_Glass);
 
                 return fixed4(specular+diffuse+ambient,1.0);
             }
