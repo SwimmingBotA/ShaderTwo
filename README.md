@@ -12,6 +12,7 @@
 ### [简易SSS](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Lesson04)
 
 
+![gif_01](https://user-images.githubusercontent.com/50166070/160222290-b4ce87c8-340e-4657-93c5-3edcdf690368.gif)
 
 
 ### FakeReflect
