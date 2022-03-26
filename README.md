@@ -20,7 +20,7 @@
 ![图片](https://user-images.githubusercontent.com/50166070/160222130-44dc11cf-11a3-4a00-99e6-ed1e27b6b781.png)
 
 
-烘培一次好久啊，瞎搞几个小时
+我的老机器烘培一次好久啊，瞎搞几个小时，光的弹射次数一多，电表倒转，可惜，以后在烘培吧
 
 ![图片](https://user-images.githubusercontent.com/50166070/160242111-63f4b5c5-67f3-4e8f-a74f-cf4297f3bb41.png)
 
