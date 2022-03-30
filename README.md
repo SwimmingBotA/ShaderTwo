@@ -24,19 +24,19 @@
 
 ![图片](https://user-images.githubusercontent.com/50166070/160242111-63f4b5c5-67f3-4e8f-a74f-cf4297f3bb41.png)
 
-### 法线贴图重映射 
+### [法线贴图重映射](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Lesson08)
 
 ![图片](https://user-images.githubusercontent.com/50166070/160747167-c5cd6c84-019d-41a3-a625-db095b85b2ea.png)
 
-### Fake模拟环境光
+### [Fake模拟环境光](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Lesson7)
 
 ![图片](https://user-images.githubusercontent.com/50166070/160747344-c60a773f-3535-453a-96c0-fcdadc7da590.png)
 
-### CubeMap与MatCap
+### [CubeMap与MatCap](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Lesson9)
 
 ![图片](https://user-images.githubusercontent.com/50166070/160747487-a1ba953d-c923-42a0-ad3c-b364bfdcfcd1.png)
 
-### 各通道运用将以上大融合为仿PBR
+### [各通道运用将以上大融合为仿PBR](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Lesson10)
 
 ![图片](https://user-images.githubusercontent.com/50166070/160747627-7b17fd4c-0eb0-4266-b23c-d51cc0c0e448.png)
 
