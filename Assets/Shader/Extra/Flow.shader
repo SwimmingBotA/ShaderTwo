@@ -9,7 +9,7 @@ Shader "Ariaaaaa/Flow"
         _VoiseTex("Voise",2D)="white"{}
         _BlendInt("BlendInt",Range(0.0,2.0))=1.0
         _VoiseInt("_VoiseInt",Range(0.0,1.0))=0.1
-        _VoiseColor("VoiseColor",Color)=(1.0,1.0,1.0,1.0)
+        [HDR]_VoiseColor("VoiseColor",Color)=(1.0,1.0,1.0,1.0)
     }
     SubShader
     {
@@ -34,7 +34,7 @@ Shader "Ariaaaaa/Flow"
             sampler2D _BackTex;
             sampler2D _VoiseTex;
             float4 _VoiseTex_ST;
-            fixed4 _VoiseColor;
+            half4 _VoiseColor;
 
 
             fixed _BlendInt;

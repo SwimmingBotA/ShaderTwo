@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a20a3b82613995469d60fc46b4b43cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetVelocity: {x: 0, y: -0.1}
+  offsetVelocity: {x: 0, y: -0.2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
