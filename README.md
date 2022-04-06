@@ -52,4 +52,14 @@ keyword：CubeMap 由ViewRefDir采样
 ![图片](https://user-images.githubusercontent.com/50166070/160747627-7b17fd4c-0eb0-4266-b23c-d51cc0c0e448.png)
 
 
+### [Dota2](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Dota/TA)
+
+![图片](https://user-images.githubusercontent.com/50166070/161924289-e219c628-9cbb-41af-82e6-9b526f7c0d6e.png)
+
+摸了个十年前dota2的人物模型实现方法，当时受限于硬件、技术，并没有用高性能的实时算法，而是用了各种烘培与贴图实现人物的表现，不得不再次佩服美术啊
+
+
+### [Extra](https://github.com/oneputatoT/ShaderTwo/tree/main/Assets/Shader/Extra)
+
+![gif_animation_004](https://user-images.githubusercontent.com/50166070/161925539-d9fe45e5-8b95-445f-8d0d-f399530155a9.gif)
 
