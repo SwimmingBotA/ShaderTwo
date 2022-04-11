@@ -40,7 +40,7 @@ Shader "Ariaaaaa/TA"
             #include "AutoLight.cginc"
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
-            #include "..\Cginc\EnvColor.cginc"
+            #include "../Cginc/EnvColor.cginc"
 
             //ÌùÍ¼
             sampler2D _BaseTex;
