@@ -41,6 +41,7 @@ Shader "Ariaaaaa/Clock"
            CGPROGRAM
            #pragma vertex vert
            #pragma fragment frag
+           #pragma mulit_compile_fwdbase_fullshadow
            #include "UnityCG.cginc"
            #include "Lighting.cginc"
            #include "AutoLight.cginc"
